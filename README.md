@@ -76,4 +76,3 @@ This will generate a static version in `personal-site/build/` which you can host
 ## 🙌 Acknowledgements
 
 - Initial template from [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
-- Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
