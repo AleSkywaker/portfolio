@@ -22,11 +22,11 @@ const data = [
   },
   {
     label: 'Number of spoons',
-    value: '10',
+    value: '0',
   },
   {
     label: 'Number of linter warnings',
-    value: '8', // enforced via github workflow
+    value: '0', // enforced via github workflow
   },
   {
     label: 'Open github issues',
