@@ -1,0 +1,26 @@
+.books-list {
+    display: flex;
+    margin-bottom: 2em;
+    img {
+        max-width: 80px;
+        margin-right: 1em;
+    }
+    .published{
+        margin-left: 2em;
+        text-transform: none;
+        font-size: 0.7em;
+    }
+}
+
+.book-author{
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 0.6em;
+}
+
+.book-description{
+    font-size: .9em;
+}
