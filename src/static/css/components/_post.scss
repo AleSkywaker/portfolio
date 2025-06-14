@@ -104,8 +104,9 @@
         font-weight: _font(weight-heading);
         letter-spacing: _font(kerning-heading);
         line-height: 1;
-        margin: 0 0 0 2em;
-        padding: 0 0 0 2em;
+        /* top | right | bottom | left */
+        margin: 2em 0 0 1em;
+        padding: 0 0 0 1em;
         text-transform: uppercase;
 
         &:first-child {
@@ -116,10 +117,15 @@
 
         .icon {
           border-bottom: 0;
+          margin: 0 0.25em;
+          font-size: 1.8em;
+          color: _palette(bold);
+          text-align: center;
+          text-decoration: none;
 
           &:before {
             color: _palette(border);
-            margin-right: 0.75em;
+            margin: 0 0.25em;
           }
         }
       }

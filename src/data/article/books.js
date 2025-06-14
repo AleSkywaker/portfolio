@@ -1,0 +1,50 @@
+const books = [
+  {
+    title: 'The Software Engineer\'s Guidebook',
+    date: 'November 3, 2023',
+    dateTime: '2023-11-03',
+    description: 'In my first few years as a developer I assumed that hard work was all I needed. Then I was passed over for a promotion and my manager couldn’t give me feedback on what areas to improve, so I could get to the senior engineer level. I was frustrated; even bitter: not as much about missing the promotion, but because of the lack of guidance.',
+    link: 'https://www.amazon.es/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X',
+    image: '/images/engineer_guide.jpg',
+    author: 'Gergely Orosz',
+  },
+  {
+    title: 'Grokking Algorithms',
+    date: 'February 20, 2024',
+    dateTime: '2024-02-20',
+    description: 'A friendly, fully-illustrated introduction to the most important computer programming algorithms, The algorithms you will use most often as a programmer have already been discovered, tested, and proven. This book will prepare you for those pesky algorithms questions in every programming job interview and help you apply them in your day-to-day work. And if you want to understand them without slogging through dense multipage proofs, this is the book for you.',
+    link: 'https://www.amazon.es/Grokking-Algorithms-Aditya-Bhargava/dp/1633438538',
+    image: '/images/grokking_algorithms.jpg',
+    author: 'Aditya Bhargava',
+  },
+  {
+    title: 'The Pragmatic Programmer',
+    date: 'July 30, 2019',
+    dateTime: '2019-07-30',
+    description: 'Dave Thomas and Andy Hunt wrote the first edition of this influential book in 1999 to help their clients create better software and rediscover the joy of coding. These lessons have helped a generation of programmers examine the very essence of software development, independent of any particular language, framework, or methodology, and the Pragmatic philosophy has spawned hundreds of books, screencasts, and audio books, as well as thousands of careers and success stories.',
+    link: 'https://www.amazon.es/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1',
+    image: '/images/pragmatic_programmer.jpg',
+    author: 'Dave Thomas',
+    author2: 'Andy Hunt',
+  },
+  {
+    title: 'TypeScript in 50 Lessons',
+    date: 'November 17, 2020',
+    dateTime: '2020-11-17',
+    description: 'In “TypeScript in 50 Lessons”, Stefan Baumgartner breaks down the quirks of TypeScript into short, manageable lessons. You’ll make sense of TypeScript concepts, tooling for TypeScript and how to get most out of it without learning a new language. Everything TypeScript explained, from start to finish.',
+    link: 'https://www.amazon.com/TypeScript-50-Lessons-Stefan-Baumgartner-ebook/dp/B08NT8VM5M',
+    image: '/images/ts_50_lessons.jpg',
+    author: 'S. Baumgartner',
+  },
+  {
+    title: 'Clean Code',
+    date: 'Agosto 01, 2009',
+    dateTime: '2009-08-01',
+    description: 'Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code–of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.',
+    link: 'https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM',
+    image: '/images/clean_code.jpg',
+    author: 'Martin Robert C.',
+  },
+];
+
+export default books;
