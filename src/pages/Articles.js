@@ -11,7 +11,7 @@ import Book from '../components/Book/Book';
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const Articles = () => {
-  const [showMore, setShowMore] = useState(true);
+  const [showMore, setShowMore] = useState(false);
 
   return (
     <Main>
